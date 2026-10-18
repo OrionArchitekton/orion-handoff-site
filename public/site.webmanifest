@@ -1,0 +1,20 @@
+{
+  "name": "Orion Handoff",
+  "short_name": "Handoff",
+  "start_url": "/works/orion-handoff/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/works/orion-handoff/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/works/orion-handoff/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
