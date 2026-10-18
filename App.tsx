@@ -15,15 +15,17 @@ const CommandBlock: React.FC<{ title: string; note?: string; command: string }> 
   note,
   command,
 }) => {
-  const [copied, setCopied] = useState(false);
+  const [copyState, setCopyState] = useState<'idle' | 'copied' | 'failed'>('idle');
 
-  const copy = () => {
-    if (typeof navigator !== 'undefined' && navigator.clipboard) {
-      navigator.clipboard.writeText(command).then(() => {
-        setCopied(true);
-        window.setTimeout(() => setCopied(false), 1600);
-      });
+  const copy = async () => {
+    try {
+      if (!navigator.clipboard) throw new Error('Clipboard unavailable');
+      await navigator.clipboard.writeText(command);
+      setCopyState('copied');
+    } catch {
+      setCopyState('failed');
     }
+    window.setTimeout(() => setCopyState('idle'), 1600);
   };
 
   return (
@@ -41,8 +43,12 @@ const CommandBlock: React.FC<{ title: string; note?: string; command: string }> 
           className="no-print absolute top-2 right-2 text-[10px] uppercase tracking-wider font-mono text-neutral-400 hover:text-white bg-neutral-900/70 backdrop-blur-sm border border-neutral-700 hover:border-neutral-400 rounded px-2 py-1 transition-colors"
           aria-label={`Copy command: ${title}`}
         >
-          {copied ? 'Copied' : 'Copy'}
+          {copyState === 'failed' ? 'Copy failed' : copyState === 'copied' ? 'Copied' : 'Copy'}
         </button>
+        <span role="status" aria-live="polite" className="sr-only">
+          {copyState === 'failed' ? 'Copy failed. Select and copy the command text.' :
+            copyState === 'copied' ? 'Command copied.' : ''}
+        </span>
       </div>
     </div>
   );

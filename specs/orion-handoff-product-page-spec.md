@@ -9,7 +9,7 @@ Readers can understand the tool, see its task-selection boundary, find installat
 1. A reader opens the dedicated Works path on desktop or mobile. The product name and context-transfer promise lead, text stays readable, code scrolls within its own blocks, and links/buttons have keyboard focus.
 2. The reader follows the source or guide CTA through a normal document link. The page never claims a handoff grants action permission, verifies references, or installs vendor integrations.
 3. A crawler without JavaScript receives product prose and source/guide links. Canonical, OG, structured data and manifest all use the complete Works subpath. Assets resolve when the hub strips that prefix to the origin.
-4. A reader copies an install or explicit-store snippet. The copy is exact and its status is visible; the complete record generator lives in the linked canonical guide.
+4. A reader copies an install or explicit-store snippet. The copy is exact and its status is visible; denied/unavailable clipboard access shows a failure message and leaves selectable command text without an unhandled rejection; the complete record generator lives in the linked canonical guide.
 
 ## Test seam
 
