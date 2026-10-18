@@ -20,11 +20,11 @@ export const PRODUCT_DATA: ProductData = {
     heading: 'One task, one explicit pickup',
     intro: 'An illustrative summary of the guide’s synthetic walkthrough. JSON responses contain additional fields; these are the decision points.',
     lines: [
-      {kind:'command', text:'orion-handoff --store "$STORE" --json pickup --project sample-project --resume'},
+      {kind:'command', text:'orion-handoff --store "$STORE" --json pickup --task alpha'},
       {kind:'output', text:'code: context_available   match: task', tone:'ok'},
       {kind:'output', text:'recency: within_window   authority: none'},
       {kind:'comment', text:'# Two current tasks share a project: no implicit choice'},
-      {kind:'command', text:'orion-handoff --store "$STORE" --json pickup \\n  --project sample-project --resume'},
+      {kind:'command', text:'orion-handoff --store "$STORE" --json pickup --project sample-project --resume'},
       {kind:'output', text:'code: ambiguous   record: null   exit: 11', tone:'fail'},
       {kind:'comment', text:'# A stale successor stays selected; no older fallback'},
       {kind:'output', text:'code: inspect_only   continuation: null   exit: 10', tone:'muted'},
