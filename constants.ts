@@ -57,6 +57,7 @@ export const PRODUCT_DATA: ProductData = {
   links: [
     {label:'Source and recovery runbook', url:GITHUB},
     {label:'Step-by-step guide', url:GUIDE},
+    {label:'PM + browser + Handoff starter preview (CPython 3.11 / WSL2)', url:'https://www.danmercede.com/guides/continue-agent-tasks-with-orion-starter'},
     {label:'All Works', url:'https://www.danmercede.com/works'},
   ],
   footerNote:'MIT licensed. Built by Dan Mercede.',
