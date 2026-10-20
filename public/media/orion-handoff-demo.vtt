@@ -1,0 +1,94 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:01.780
+So the newest handoff here is for
+
+00:00:01.780 --> 00:00:05.020
+beta. I want alpha. I asked the
+
+00:00:05.020 --> 00:00:08.013
+project, watch. Ambiguous. It won't pick a
+
+00:00:08.013 --> 00:00:09.847
+job for me. Now I ask for
+
+00:00:09.847 --> 00:00:11.550
+alpha. That's the record I meant.
+
+00:00:11.550 --> 00:00:12.630
+now we're going to add task beta
+
+00:00:12.630 --> 00:00:14.470
+to the same project and I have
+
+00:00:14.470 --> 00:00:16.470
+two different jobs actually running and I
+
+00:00:16.470 --> 00:00:18.250
+asked to resume a sample project without
+
+00:00:18.250 --> 00:00:20.310
+naming either task. So what you can
+
+00:00:20.310 --> 00:00:22.870
+see is I get ambiguous. It exits
+
+00:00:22.870 --> 00:00:25.150
+eleven and no selected record. The tool
+
+00:00:25.150 --> 00:00:27.310
+doesn't pick whichever one I happened to
+
+00:00:27.310 --> 00:00:29.863
+save last. So I name alpha explicitly
+
+00:00:29.863 --> 00:00:31.903
+and I get its record back. That's
+
+00:00:31.903 --> 00:00:33.783
+the question I needed the receiving session
+
+00:00:33.783 --> 00:00:35.343
+to answer before I could actually carry
+
+00:00:35.343 --> 00:00:36.370
+on.
+
+00:00:36.370 --> 00:00:36.887
+So now I
+
+00:00:36.887 --> 00:00:38.907
+record a successor for alpha and mark
+
+00:00:38.907 --> 00:00:41.127
+that context stale. I use the first
+
+00:00:41.127 --> 00:00:43.307
+records ID as a predecessor. So the
+
+00:00:43.307 --> 00:00:45.227
+tool can tell me which revision I'm
+
+00:00:45.227 --> 00:00:48.147
+changing. I pick up alpha again, and
+
+00:00:48.147 --> 00:00:49.247
+you can see it selects the new
+
+00:00:49.247 --> 00:00:52.307
+stale record. I get inspect only, exit
+
+00:00:52.307 --> 00:00:54.580
+10, and no continuation. I can still
+
+00:00:54.580 --> 00:00:56.340
+inspect the earlier record with the show,
+
+00:00:57.020 --> 00:00:59.540
+but it says current false. I haven't
+
+00:00:59.540 --> 00:01:01.420
+made the old context current just because
+
+00:01:01.420 --> 00:01:03.670
+it looked more useful.

@@ -8,6 +8,7 @@
 @source "./index.html";
 @source "./index.tsx";
 @source "./App.tsx";
+@source "./ProductDemo.tsx";
 @source "./constants.ts";
 @source "./vite-plugin-bodybake.ts";
 
@@ -96,3 +97,5 @@
 #quickstart { scroll-margin-top: 2rem; }
 
 h1 { color: #020B29 !important; }
+
+.product-demo-player { width: 100%; height: auto; aspect-ratio: 16 / 9; }

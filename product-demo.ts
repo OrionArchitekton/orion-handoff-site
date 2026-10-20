@@ -1,0 +1,7 @@
+export const PRODUCT_DEMO = {
+  "slug": "orion-handoff",
+  "title": "Watch orion-handoff in action",
+  "disclosure": "Edited guide excerpt using public Orion Handoff v0.1.0 and synthetic task records. Original Dan narration. Recorded review labels are simulated; context and references grant no execution authority.",
+  "transcript": "So the newest handoff here is for beta. I want alpha. I asked the project, watch. Ambiguous. It won't pick a job for me. Now I ask for alpha. That's the record I meant. now we're going to add task beta to the same project and I have two different jobs actually running and I asked to resume a sample project without naming either task. So what you can see is I get ambiguous. It exits eleven and no selected record. The tool doesn't pick whichever one I happened to save last. So I name alpha explicitly and I get its record back. That's the question I needed the receiving session to answer before I could actually carry on. So now I record a successor for alpha and mark that context stale. I use the first records ID as a predecessor. So the tool can tell me which revision I'm changing. I pick up alpha again, and you can see it selects the new stale record. I get inspect only, exit 10, and no continuation. I can still inspect the earlier record with the show, but it says current false. I haven't made the old context current just because it looked more useful.",
+  "publishedVideo": null
+} as const;
