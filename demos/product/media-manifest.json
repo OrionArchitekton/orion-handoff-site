@@ -1,0 +1,28 @@
+{
+  "slug": "orion-handoff",
+  "demonstrated_version": "v0.1.0",
+  "source_name": "g05-review-v1.mp4",
+  "source_sha256": "cb0518fe4d594175a293c7180b6fbd211c4881a5d68771722dcf4c3b741f3234",
+  "ranges_seconds": [
+    [
+      0,
+      11.55
+    ],
+    [
+      271.18,
+      296.0
+    ],
+    [
+      334.85,
+      362.15
+    ]
+  ],
+  "duration_seconds": 63.7,
+  "voice": "Original recorded Dan narration, unchanged within excerpts",
+  "files": {
+    "orion-handoff-demo.vtt": "54fd9fafab41943f38a2c06216ed8d44b9c524f711f3b68ccc0864aff672592e",
+    "orion-handoff-demo.jpg": "4555f04ebf95b6e76bdc67cce65c069ee19de429e1514fb6241fa2ac6f08213f",
+    "orion-handoff-demo.mp4": "b75ac2c7fd7e32e9d982cd90a29439424ffaccc91a0a790abe5bb4c76b8dd132"
+  },
+  "caption_note": "Original guide captions retimed to the excerpt; words outside cut boundaries removed after an independent ASR check."
+}
