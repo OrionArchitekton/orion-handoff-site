@@ -1,5 +1,7 @@
 # Orion Handoff Works site
 
+Part of [Cosmocrat OS](https://www.cosmocrat.ai/tools#orion-handoff).
+
 MIT source for [Orion Handoff](https://www.danmercede.com/works/orion-handoff/).
 
 `npm ci`, `npm run typecheck`, `npm run build`, then `npm run preview -- --host 127.0.0.1`.
